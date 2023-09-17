@@ -17,7 +17,7 @@ const addPerson = (id: number, firstName: string, lastName: string)=> {
 addPerson(1, "amir", "karimi");
 
 const showPersons = ()=> {
-    personArray[0] ? console.log('list nadarim') : console.log(personArray)
+    personArray[0] ? console.log(personArray) : console.log('list nadarim')
 }
 
 showPersons();
@@ -27,4 +27,4 @@ const searchPerson = (value: string)=> {
     result ? console.log("person found") :  console.log("person not found");
 }
 
-searchPerson("shahram")
+searchPerson("amir")

@@ -1,12 +1,12 @@
 const cart: string[] = [];
 
-function addToCart(product: string) {
+const addToCart = (product: string)=> {
     cart.push(product);
 }
 
 addToCart("apple");
 
-function showCart() {
+const showCart= ()=> {
     console.log("orders is:");
     for (let i = 0; i < cart.length; i++) {
         console.log(cart[i]);
