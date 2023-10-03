@@ -24,7 +24,7 @@ showPersons();
 
 const searchPerson = (value: string)=> {
     let result = personArray.find((item) => item.firstName === value || item.lastName === value);
-    result ? console.log("person found") :  console.log("person not found");
+    result ? console.log("person found ") :  console.log("person not found");
 }
 
 searchPerson("amir")

@@ -13,6 +13,6 @@ var showPersons = function () {
 showPersons();
 var searchPerson = function (value) {
     var result = personArray.find(function (item) { return item.firstName === value || item.lastName === value; });
-    result ? console.log("person found") : console.log("person not found");
+    result ? console.log("person found : ".concat(result)) : console.log("person not found");
 };
 searchPerson("amir");
